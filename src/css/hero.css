@@ -1,0 +1,164 @@
+.hero {
+   
+    height: 812px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/img/hero/hero-mob-min-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image:url("/img/hero/hero-mob-min@2x-min.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-container-text {
+    padding-bottom: 38px;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    padding-bottom: 24px;
+}
+
+.hero-paragraf {
+    width: 320px;
+    font-size: 12px;
+    line-height: 1.17;
+    color: rgba(251, 251, 251, 0.7);
+    font-weight: 300;
+}
+
+.hero-button {
+    background: #1b414b;
+    border-radius: 15px;
+    width: 141px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: #fbfbfb;
+    color: #1b414b;
+}
+
+
+    @media screen and (min-width: 768px) {
+        .hero {
+          
+          height: 962px;
+          background-image: url("/img/hero/hero-tablet-min-min.jpg");
+        }
+        
+    
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero {
+          background-image: url("/img/hero/hero-tablet-min@2x-min.jpg");
+        }
+    }
+
+    .hero-container {
+        width: 704px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-title {
+        font-size: 70px;
+        padding: 0 24px;
+        padding-bottom: 24px;
+    }
+
+        
+
+    .hero-paragraf {
+        width: 695px;
+        line-height: 1.4;
+        font-size: 16px;
+        padding: 0 68px;
+    }
+    .hero-container-text {
+        padding-bottom: 48px;
+    }
+
+    .hero-button {
+       width: 179px;
+       height: 52px;
+       font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero {
+      height: 800px;
+      background-image: url("/img/hero/hero-dekstop-min-min.jpg");
+    }
+  
+@media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero {
+        background-image: url("/img/hero/hero-dekstop-min@2x-min.jpg");
+      }
+    }
+  
+    .hero-container {
+     width: 1001px;
+    }
+
+    .hero-title {
+        font-size: 80px;
+    }
+
+    .hero-paragraf {
+        width: 1001px;
+        height: 66px;
+        padding: 0 220px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .hero {
+      background-image: url("/img/hero/hero-desktop1440-min.jpg");
+    }
+  
+@media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero {
+        background-image: url("/img/hero/hero-dekstop1440-min@2x.jpg");
+      }
+    }
+}
