@@ -14,11 +14,12 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>yachtjet-first-team-project</title>
   <script type="module" crossorigin src="/yachtjet-first-team-project/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/yachtjet-first-team-project/assets/index-BSWMIAx_.css">
+  <link rel="stylesheet" crossorigin href="/yachtjet-first-team-project/assets/index-BY_WTC43.css">
 </head>
 
 <body>
-  <header class="header">
+  
+<header class="header">
   <div class="container header-container">
     <a href="./index.html" class="header-logo">yachtjet</a>
     <nav class="header-nav">
@@ -63,7 +64,7 @@
       </svg>
     </button>
   </div>
-</header>
+
 
   <main>
     <!-- Loads the specified .html file -->
@@ -80,7 +81,84 @@
       <a href="#rent" type="button" class="our-yachts-btn">Yacht rental</a>
     </div>
 </section>
-    
+    <section class="about_us">
+  <div class="container about-container">
+    <div class="about_us_content_inner">
+      <div class="about_us_content">
+        <div class="about_us_hole_text">
+          <h2 class="about_us_title">
+            YachtJet fleet is here to take you on the ultimate adventure
+          </h2>
+          <div class="text">
+            <p class="about_us_subtitle">
+              From spacious decks to state-of-the-art technology, our yachts
+              are designed to provide the perfect blend of luxury and
+              functionality.
+            </p>
+            <p class="about_us_text">
+              Take a look at our selection below and choose the yacht that
+              matches your needs and preferences.No matter which yacht you
+              choose, our experienced crew will ensure that your journey is
+              smooth and enjoyable. Book now and get ready for an
+              unforgettable adventure on the high seas.
+            </p>
+          </div>
+        </div>
+
+        <div class="picture_wrapper">
+          <picture>
+            <source srcset="/yachtjet-first-team-project/assets/about_us_big_1x-h_ZwIqGc.png 1x, /yachtjet-first-team-project/assets/about_us_big@2-CC8x49-x.png 2x" media="(min-width: 1440px)" width="1340" height="470" />
+            <source srcset="/yachtjet-first-team-project/assets/about_us_small_1x-DwBF8BrP.png 1x, /yachtjet-first-team-project/assets/about_us_small@2-CYVte9s2.png 2x" media="(min-width: 1280px)" width="1180" height="470" />
+            <source srcset="/yachtjet-first-team-project/assets/about_us_tablet_1x-Czk0nrSA.png 1x, /yachtjet-first-team-project/assets/about_us_tablet@2-B2c6kSyo.png 2x" media="(min-width: 768px)" width="704" height="470" />
+            <source srcset="/yachtjet-first-team-project/assets/about_us_phone_1x-CLERkqWu.png 1x, /yachtjet-first-team-project/assets/about_us_phone@2-ZOojQG_x.png 2x" media="(max-width: 767px)" width="335" height="395" />
+
+            <img src="./img/phone.png" alt="big yacht" />
+          </picture>
+
+          <!-- <picture>
+              <source
+                srcset="
+                  ./img/about_us_big_1x.jpg 1x,
+                  ./img/about_us_big@2.jpg  2x
+                "
+                media="(min-width: 1440px)"
+                width="1340"
+                height="470"
+              />
+              <source
+                srcset="
+                  ./img/about_us_small_1x.jpg 1x,
+                  ./img/about_us_small@2.jpg  2x
+                "
+                media="(min-width: 1280px)"
+                width="1180"
+                height="470"
+              />
+              <source
+                srcset="
+                  ./img/about_us_tablet_1x.jpg 1x,
+                  ./img/about_us_tablet@2.jpg  2x
+                "
+                media="(min-width: 768px)"
+                width="704"
+                height="470"
+              />
+              <source
+                srcset="
+                  ./img/about_us_phone_1x.jpg 1x,
+                  ./img/about_us_phone@2.jpg  2x
+                "
+                media="(max-width: 767px)"
+                width="335"
+                height="395"
+              />
+
+              <img src="./img/about_us_big@2.jpg" alt="big yacht" />
+            </picture> -->
+        </div>
+      </div>
+    </div>
+</section>
     <section class="our-yachts-section" id="our-yachts">
   <div class="container our-yachts-container">
     <h2 class="our-yachts-title">
@@ -321,7 +399,53 @@
 
     </div>
 </section>
-    
+    <section class="rent" id="rent">
+    <div class="container desktop">
+        <div class="text-form-wrapper">
+            <h2 class="section-title">Rent a yacht now</h2>
+            <form class="rent-form">
+
+                <div class="rent-form-container">
+                    <label class="rent-form-label visually-hidden" for="user-name">Name</label>
+                    <input class="rent-form-input" type="text" id="user-name" name="user-name" placeholder="Full Name"
+                        required>
+                </div>
+
+                <div class="rent-form-container">
+                    <label class="rent-form-label visually-hidden" for="user-email">Email</label>
+                    <input class="rent-form-input" type="email" id="user-email" name="user-email"
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,8}" placeholder="Email" required>
+                </div>
+
+                <div class="rent-form-container">
+                    <label class="rent-form-label visually-hidden" for="user-phone">Phone</label>
+                    <input class="rent-form-input" type="tel" id="user-phone" name="user-phone"
+                        pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$" placeholder="Phone number" required>
+                </div>
+
+                <div class="rent-form-comment">
+                    <label class="rent-form-label visually-hidden" for="user-comment">Comment</label>
+                    <textarea class="rent-form-input rent-form-textarea" id="user-comment" name="user-comment"
+                        placeholder="Comment"></textarea>
+                </div>
+                <button class="rent-button" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="image-wrapper">
+            <picture>
+                <source srcset="/yachtjet-first-team-project/assets/Photo1440@1x-C85MkHg9.webp 1x, /yachtjet-first-team-project/assets/Photo1440@2x-C4btpmQy.webp 2x"
+                    media="(min-width: 1440px)">
+                <source srcset="/yachtjet-first-team-project/assets/Photo1280@1x-cMJ2z6Yg.webp 1x, /yachtjet-first-team-project/assets/Photo1280@2x-BVVge-Ks.webp 2x"
+                    media="(min-width: 1280px)">
+                <source srcset="/yachtjet-first-team-project/assets/Photo768@1x-Dvc2G_bL.webp 1x, /yachtjet-first-team-project/assets/Photo768@2x-DRRrsEwd.webp 2x"
+                    media="(min-width: 768px)">
+                <source srcset="/yachtjet-first-team-project/assets/Photo375@1x-Bs4ADoAO.webp 1x, /yachtjet-first-team-project/assets/Photo375@2x-W2EsHOmo.webp 2x"
+                    media="(max-width: 767px)">
+                <img src="/yachtjet-first-team-project/assets/Photo375@1x-Bs4ADoAO.webp" alt="night and yacht">
+            </picture>
+        </div>
+    </div>
+</section>
     <section class="reviews" id="reviews">
     <div class="container container-reviews">
         <h2 class="reviews-title">YachtJet take pride in providing the best possible service and experience to our
@@ -438,6 +562,7 @@
   </main>
 
   
+
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-container-nav">
@@ -478,7 +603,6 @@
             <a href="#">Privacy Policy</a>
         </div>
     </div>
-</footer>
 
   <div class="mobile-menu ">
     <div class="container mobile-menu-container">
